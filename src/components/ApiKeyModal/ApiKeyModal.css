@@ -1,0 +1,100 @@
+/* ApiKeyModal.css */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .modal-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    max-width: 28rem;
+    width: 100%;
+  }
+  
+  .modal-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-text {
+    margin-bottom: 1rem;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  
+  .modal-link {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .api-key-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+  }
+  
+  .api-key-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  
+  .cancel-button {
+    padding: 0.5rem 1rem;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .save-button {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button-enabled {
+    background-color: #3b82f6;
+  }
+  
+  .save-button-enabled:hover {
+    background-color: #2563eb;
+  }
+  
+  .save-button-disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+  }
